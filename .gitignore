@@ -1,11 +1,42 @@
+# IDE-related files
+*.iml
+.classpath
+.project
+.idea
+
+# coverage
+coverage/
+
+# log files
+log/*
+!log/.gitkeep
+
+# .idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/compiler.xml
+.idea/compiler.xml
+
+# IntelliJ plugins
+atlassian-ide-plugin.xml
+
+# Mac trash files
+.DS_Store
+
+# By-products
+*.log
+.sass-cache
+builds/
+
+# Bower & npm
 /node_modules
 /npm-debug.log
-
 /test/assets/temp
 /test/assets/temp2
 /test/assets/temp-resolve-cache
 /test/assets/package-*/
 /test/reports
-
 /component.json
 /bower_components
