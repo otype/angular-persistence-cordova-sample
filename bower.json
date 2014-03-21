@@ -1,0 +1,29 @@
+{
+  "name": "Angular-Persistence-Cordova-Sample",
+  "version": "0.0.1",
+  "homepage": "https://github.com/otype/angular-persistence-cordova-sample",
+  "authors": [
+    "Hans-Gunther Schmidt <hans@otype.de>"
+  ],
+  "description": "Sample project showing AngularJS, peristencejs with Cordova Support and SQLitePlugin in action",
+  "keywords": [
+    "angularjs",
+    "persistencejs",
+    "cordova",
+    "sqlite",
+    "sqliteplugin"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "*",
+    "persistence": "https://github.com/otype/persistencejs.git#~0.3.0"
+  }
+}
