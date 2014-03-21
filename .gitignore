@@ -30,6 +30,10 @@ atlassian-ide-plugin.xml
 .sass-cache
 builds/
 
+# Cordova things
+platforms/
+plugins/
+
 # Bower & npm
 /node_modules
 /npm-debug.log
